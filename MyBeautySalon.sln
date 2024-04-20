@@ -5,6 +5,12 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBeautySalon.Web", "MyBeautySalon.Web\MyBeautySalon.Web.csproj", "{8861E9C7-143F-40EC-979D-B9BE8270985C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBeautySalon.Domain", "MyBeautySalon.Domain\MyBeautySalon.Domain.csproj", "{BB97A108-BB9C-478F-AF6C-4C48FA500CD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBeautySalon.Application", "MyBeautySalon.Application\MyBeautySalon.Application.csproj", "{CFD0D8FE-EFAB-4BCC-98E8-9DCFCEC8BFF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBeautySalon.Persistence", "MyBeautySalon.Persistence\MyBeautySalon.Persistence.csproj", "{C937E589-DD5B-47A1-8CBD-601EB0306B92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{8861E9C7-143F-40EC-979D-B9BE8270985C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8861E9C7-143F-40EC-979D-B9BE8270985C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8861E9C7-143F-40EC-979D-B9BE8270985C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB97A108-BB9C-478F-AF6C-4C48FA500CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB97A108-BB9C-478F-AF6C-4C48FA500CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB97A108-BB9C-478F-AF6C-4C48FA500CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB97A108-BB9C-478F-AF6C-4C48FA500CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD0D8FE-EFAB-4BCC-98E8-9DCFCEC8BFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD0D8FE-EFAB-4BCC-98E8-9DCFCEC8BFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD0D8FE-EFAB-4BCC-98E8-9DCFCEC8BFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD0D8FE-EFAB-4BCC-98E8-9DCFCEC8BFF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C937E589-DD5B-47A1-8CBD-601EB0306B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C937E589-DD5B-47A1-8CBD-601EB0306B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C937E589-DD5B-47A1-8CBD-601EB0306B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C937E589-DD5B-47A1-8CBD-601EB0306B92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using MyBeautySalon.Persistence;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<DataContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SqlMainConnection")));
 
 var app = builder.Build();
 
