@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBeautySalon.Web", "MyBeautySalon.Web\MyBeautySalon.Web.csproj", "{8861E9C7-143F-40EC-979D-B9BE8270985C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBeautySalon.Web", "MyBeautySalon.Web\MyBeautySalon.Web.csproj", "{8861E9C7-143F-40EC-979D-B9BE8270985C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBeautySalon.Domain", "MyBeautySalon.Domain\MyBeautySalon.Domain.csproj", "{BB97A108-BB9C-478F-AF6C-4C48FA500CD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBeautySalon.Domain", "MyBeautySalon.Domain\MyBeautySalon.Domain.csproj", "{BB97A108-BB9C-478F-AF6C-4C48FA500CD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBeautySalon.Application", "MyBeautySalon.Application\MyBeautySalon.Application.csproj", "{CFD0D8FE-EFAB-4BCC-98E8-9DCFCEC8BFF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBeautySalon.Application", "MyBeautySalon.Application\MyBeautySalon.Application.csproj", "{CFD0D8FE-EFAB-4BCC-98E8-9DCFCEC8BFF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBeautySalon.Persistence", "MyBeautySalon.Persistence\MyBeautySalon.Persistence.csproj", "{C937E589-DD5B-47A1-8CBD-601EB0306B92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBeautySalon.Persistence", "MyBeautySalon.Persistence\MyBeautySalon.Persistence.csproj", "{C937E589-DD5B-47A1-8CBD-601EB0306B92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
